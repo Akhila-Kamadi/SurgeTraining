@@ -25,8 +25,8 @@ public class Aug11Day2 {
 		Aug11Day2 classObj = new Aug11Day2();
 		Ball objBall =classObj.new Ball();
 		objBall.color = "Red";
-		objBall.diameter = 25;
-		objBall.weight = 0.05f; 
+		//objBall.diameter = 25;
+		//objBall.weight = 0.05f; 
 		System.out.println(objBall.ballType(objBall.color, objBall.diameter, objBall.weight));
 		
 	}
